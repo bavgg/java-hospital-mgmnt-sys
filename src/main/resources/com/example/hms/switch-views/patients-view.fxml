@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.hms.controllers.PatientController"
+      prefHeight="400.0" prefWidth="600.0">
+    <Label text="Hello, this is patients view"/>
+    <TableView fx:id="patientsTable" HBox.hgrow="ALWAYS">
+        <columns>
+            <TableColumn fx:id="idColumn" text="ID"/>
+            <TableColumn fx:id="firstNameColumn" text="First Name"/>
+            <TableColumn fx:id="lastNameColumn" text="Last Name"/>
+            <TableColumn fx:id="dobColumn" text="Date of Birth"/>
+            <TableColumn fx:id="genderColumn" text="Gender"/>
+            <TableColumn fx:id="phoneNumberColumn" text="Phone Number"/>
+            <TableColumn fx:id="emailColumn" text="Email"/>
+            <TableColumn fx:id="addressColumn" text="Address"/>
+            <TableColumn fx:id="emergencyContactNameColumn" text="Emergency Contact Name"/>
+            <TableColumn fx:id="emergencyContactPhoneColumn" text="Emergency Contact Phone"/>
+            <TableColumn fx:id="insuranceProviderColumn" text="Insurance Provider"/>
+            <TableColumn fx:id="insurancePolicyNumberColumn" text="Insurance Policy Number"/>
+            <TableColumn fx:id="registrationDateColumn" text="Registration Date"/>
+        </columns>
+    </TableView>
+</VBox>

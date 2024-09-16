@@ -5,16 +5,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be7bf209-3389-447a-8458-3245d3c858ec" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/hms/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/hms/controllers/AppointmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/hms/controllers/DoctorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/hms/controllers/PatientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/hms/models/Appointment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/hms/models/Doctor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/hms/models/Patient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/hms/repositories/AppointmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/hms/repositories/AppointmentRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/hms/repositories/DoctorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/hms/repositories/DoctoryRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/hms/repositories/PatientRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/hms/repositories/PatientRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/hms/utils/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/hms/components/barChart-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/hms/components/lineChart-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/hms/dashboard-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/hms/images/profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/hms/login-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/hms/switch-views/appointments-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/hms/switch-views/doctors-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/hms/switch-views/index-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/hms/switch-views/patients-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/hospitalmanagementsystem/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/hospitalmanagementsystem/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/hospitalmanagementsystem/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/hms/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/hospitalmanagementsystem/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/hospitalmanagementsystem/hello-view.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/example/hms/repositories/DoctoryRepositoryImpl.java" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -27,20 +69,70 @@
   "associatedIndex": 3
 }]]></component>
   <component name="ProjectId" id="2m1RIzyK9no77BTi6RShDPycaiC" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.HelloApplication.executor": "Run",
+    "Application.MainApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/com/example/hms" />
+      <recent name="$PROJECT_DIR$/src/main/resources/com/example/hospitalmanagementsystem" />
+      <recent name="$PROJECT_DIR$/src/main/resources/com/example/hospitalmanagementsystem/components" />
+      <recent name="$PROJECT_DIR$/src/main/resources/com/example/hospitalmanagementsystem/mains-views" />
+      <recent name="$PROJECT_DIR$/src/main/resources/com/example/hospitalmanagementsystem/layout" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.hospitalmanagementsystem" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.hms.MainApplication" />
+      <module name="hospital-management-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.hms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -57,8 +149,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726242025291</updated>
-      <workItem from="1726242026354" duration="2000" />
+      <workItem from="1726242026354" duration="63652000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.hms.controllers.AppointmentController"
+            prefHeight="400.0" prefWidth="600.0">
+    <Label text="Hello, this is appointments view"/>
+    <TableView HBox.hgrow="ALWAYS" fx:id="appointmentsTable">
+        <columns>
+            <TableColumn text="ID" fx:id="appointmentIdColumn" prefWidth="75"/>
+            <TableColumn text="Patient ID" fx:id="patientIdColumn" prefWidth="75"/>
+            <TableColumn text="Doctor ID" fx:id="doctorIdColumn" prefWidth="75"/>
+            <TableColumn text="Date" fx:id="appointmentDateColumn" prefWidth="150"/>
+            <TableColumn text="Duration (mins)" fx:id="durationColumn" prefWidth="100"/>
+            <TableColumn text="Status" fx:id="statusColumn" prefWidth="100"/>
+            <TableColumn text="Reason" fx:id="reasonColumn" prefWidth="150"/>
+        </columns>
+    </TableView>
+</VBox>

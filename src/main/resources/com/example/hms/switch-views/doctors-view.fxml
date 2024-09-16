@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.hms.controllers.DoctorController"
+            prefHeight="400.0" prefWidth="600.0">
+    <TableView fx:id="doctorsTable" HBox.hgrow="ALWAYS">
+        <columns>
+            <TableColumn fx:id="idColumn" text="ID" />
+            <TableColumn fx:id="firstNameColumn" text="First Name" />
+            <TableColumn fx:id="lastNameColumn" text="Last Name" />
+            <TableColumn fx:id="specialtyColumn" text="Specialty" />
+            <TableColumn fx:id="phoneNumberColumn" text="Phone Number" />
+            <TableColumn fx:id="emailColumn" text="Email" />
+            <TableColumn fx:id="hireDateColumn" text="Hire Date" />
+            <TableColumn fx:id="activeColumn" text="Active" />
+        </columns>
+    </TableView>
+</VBox>
