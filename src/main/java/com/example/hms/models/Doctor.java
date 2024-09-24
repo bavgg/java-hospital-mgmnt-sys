@@ -1,36 +1,40 @@
 package com.example.hms.models;
 
+import java.time.LocalDateTime;
 import java.util.Date;
 
 public class Doctor {
-    private int doctorId;
-    private String firstName;
-    private String lastName;
-    private String specialty;
-    private String phoneNumber;
-    private String email;
-    private String hireDate; // Using String for simplicity; could also be LocalDate
-    private boolean active;
 
-    // Constructor
-    public Doctor(int doctorId, String firstName, String lastName, String specialty,
-                  String phoneNumber, String email, String hireDate, boolean active) {
-        this.doctorId = doctorId;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.specialty = specialty;
-        this.phoneNumber = phoneNumber;
-        this.email = email;
-        this.hireDate = hireDate;
-        this.active = active;
+    private Long doctorId;
+
+    private String firstName;
+
+    private String lastName;
+
+    private String specialty;
+
+    private String phoneNumber;
+
+    private String email;
+
+    private LocalDateTime createdAt;
+
+    private LocalDateTime updatedAt;
+
+    protected void onCreate() {
+        createdAt = LocalDateTime.now();
     }
 
-    // Getters and Setters
-    public int getDoctorId() {
+    protected void onUpdate() {
+        updatedAt = LocalDateTime.now();
+    }
+
+    // Getters and setters
+    public Long getDoctorId() {
         return doctorId;
     }
 
-    public void setDoctorId(int doctorId) {
+    public void setDoctorId(Long doctorId) {
         this.doctorId = doctorId;
     }
 
@@ -74,34 +78,20 @@ public class Doctor {
         this.email = email;
     }
 
-    public String getHireDate() {
-        return hireDate;
+    public LocalDateTime getCreatedAt() {
+        return createdAt;
     }
 
-    public void setHireDate(String hireDate) {
-        this.hireDate = hireDate;
+    public void setCreatedAt(LocalDateTime createdAt) {
+        this.createdAt = createdAt;
     }
 
-    public boolean isActive() {
-        return active;
+    public LocalDateTime getUpdatedAt() {
+        return updatedAt;
     }
 
-    public void setActive(boolean active) {
-        this.active = active;
-    }
-
-    @Override
-    public String toString() {
-        return "Doctor{" +
-                "doctorId=" + doctorId +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", specialty='" + specialty + '\'' +
-                ", phoneNumber='" + phoneNumber + '\'' +
-                ", email='" + email + '\'' +
-                ", hireDate='" + hireDate + '\'' +
-                ", active=" + active +
-                '}';
+    public void setUpdatedAt(LocalDateTime updatedAt) {
+        this.updatedAt = updatedAt;
     }
 }
 

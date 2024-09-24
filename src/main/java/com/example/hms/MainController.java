@@ -1,8 +1,6 @@
 package com.example.hms;
 
-import com.example.hms.models.Doctor;
-import com.example.hms.repositories.DoctorRepository;
-import com.example.hms.repositories.DoctoryRepositoryImpl;
+
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -10,6 +8,7 @@ import javafx.scene.control.Button;
 import javafx.scene.layout.VBox;
 
 import java.io.IOException;
+import java.nio.file.Paths;
 import java.sql.SQLException;
 import java.util.List;
 import java.util.logging.Logger;
@@ -39,6 +38,8 @@ public class MainController {
 
     @FXML
     private void initialize() {
+        System.out.println(Paths.get("/Users/johndoe/IdeaProjects/hospital-management-system/target/classes/com/example/hms/switch-views"));
+//        System.out.println(MainApplication.class.);
 //        default view
         handleSwitchViews("index-view");
 
@@ -52,7 +53,7 @@ public class MainController {
 
     private void handleSwitchViews(String view) {
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource(String.format("/com/example/hms/switch-views/%s.fxml", view)));
+            FXMLLoader fxmlLoader = new FXMLLoader(MainApplication.class.getResource(String.format("switch-views/%s.fxml", view)));
             Parent doctorsView = fxmlLoader.load();
 
             switchContainer.getChildren().clear();

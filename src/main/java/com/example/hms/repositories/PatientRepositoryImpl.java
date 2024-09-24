@@ -12,7 +12,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 
-public class PatientRepositoryImpl implements PatientRepository{
+public class PatientRepositoryImpl implements PatientRepository {
     private final Connection connection;
 
     private static final Logger logger = Logger.getLogger(PatientRepositoryImpl.class.getName());
@@ -122,4 +122,18 @@ public class PatientRepositoryImpl implements PatientRepository{
                 resultSet.getTimestamp("registration_date").toLocalDateTime().toLocalDate()
         );
     }
+
+//    private Patient mapRowToPatient(ResultSet resultSet) throws SQLException {
+//        return new Patient(
+//                resultSet.getInt("doctor_id"),
+//                resultSet.getString("first_name"),
+//                resultSet.getString("last_name"),
+//                resultSet.getDate("specialty"),
+//                resultSet.getString("phone_number"),
+//                resultSet.getString("email"),
+//                resultSet.getString("hire_date"),
+//                resultSet.getString("active"),
+//
+//        );
+//    }
 }
